@@ -106,10 +106,13 @@
 
 @media only screen and (max-width: 984px) {
     .ecom-wrapper{
-        margin-right: 50px;
+        height: fit-content;
+        flex-direction: column;
+        width: 350px;
+        // margin-right: 50px;
     }
     .prod-info{
-        width: calc(400px - 80px);
+        width: calc(400px - 130px);
     }
     .prod-image {
         // height: 400px;
@@ -117,11 +120,7 @@
     }
     .prod-image img{
         height: 300px;
-        width: 400px;
+        width: 350px;
         object-fit: cover;
-    }
-    .ecom-wrapper {
-        flex-direction: column;
-        width: 400px;
     }
 }

@@ -130,15 +130,16 @@
     }
 
     .prod-info{
-        width: calc(400px - 80px);
+        width: calc(400px - 130px);
+        padding: 40px;
     }
     .prod-image {
         // height: 400px;
-        width: 400px;
+        width: 350px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .prod-image img{
         height: 250px;
@@ -147,6 +148,7 @@
     }
     .ecom-wrapper {
         flex-direction: column;
-        width: 400px;
+        height: fit-content;
+        width: 350px;
     }
 }

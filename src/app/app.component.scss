@@ -9,17 +9,9 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
     align-items: center;
     gap: 50px;
-    margin-top: 10rem;
-    margin-bottom: 5rem;
+    background: rgb(209, 30, 30);
 }
 
-
-/* Media Queries */
-
-@media only screen and (max-width: 984px) {
-    .app-container {
-        flex-direction: row;
-    }
-}
