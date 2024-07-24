@@ -6,6 +6,7 @@
     background: rgb(24, 24, 26);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: .2s;
+    margin-bottom: 50px;
 }
 
 .prod-image {
@@ -104,6 +105,9 @@
 /* Media Queries */
 
 @media only screen and (max-width: 984px) {
+    .ecom-wrapper{
+        margin-right: 50px;
+    }
     .prod-info{
         width: calc(400px - 80px);
     }
